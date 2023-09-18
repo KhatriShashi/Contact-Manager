@@ -1,0 +1,24 @@
+
+/* NavbarComponent.css */
+.navbar {
+	padding: 10px 0;
+    background-color: #461959;
+}
+.navbar-brand {
+	font-size: 3rem;
+	text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:white !important;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.nav-link {
+	text-decoration: none;
+	margin-left: 10px;
+    color:white !important;
+    font-weight: 500;
+    font-size: 18px;
+	// &:hover {
+	// }
+}

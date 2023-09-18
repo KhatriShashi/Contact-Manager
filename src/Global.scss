@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    --ibm-font:'IBM Plex Sans', sans-serif;
+    --monteserrat-font: 'Montserrat', sans-serif;
+    --oswald-font: 'Oswald', sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#141e30, #243b55);
+    overflow-x: hidden;
+}
+
+p{
+    font-family: var(--monteserrat-font);
+}
+

@@ -1,0 +1,43 @@
+.sk-update-contact {
+    width: 55%;
+    background-color: white;
+    box-shadow: none;
+    .user-box {
+        input {
+            color: black;
+            border-bottom: 1px solid black;
+            font-weight: 400;
+
+            &:focus,
+            &:valid {
+                ~label {
+                    color: blue;
+                }
+            }
+        }
+
+        label {
+            color: black;
+        }
+    }
+
+    .update-contact-box {
+        button {
+            background: #3A1078;
+            color: white;
+            padding: 10px 20px;
+            font-size: 15px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 4px;
+            letter-spacing: 3px;
+        }
+    }
+
+    .update-contact-heading {
+        color: black !important;
+        text-transform: uppercase;
+        font-family: var(--monteserrat-font);
+        font-size: 40px;
+    }
+}

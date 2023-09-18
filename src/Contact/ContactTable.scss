@@ -1,0 +1,16 @@
+.contact-table{
+    .contact-action{
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+        .edit-contact{
+            text-decoration: none;
+        }
+        .delete-contact{
+            text-decoration: none;
+            color:red;
+        }
+    
+    }
+}
+

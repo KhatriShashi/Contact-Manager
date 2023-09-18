@@ -1,0 +1,27 @@
+.sk-create-contact{
+    width: 55%;
+    background-color: white;
+    box-shadow: rgba(140, 140, 192, 0.2) 0px 7px 29px 0px !important;
+    .user-box{
+        input{
+            color: black;
+            border-bottom: 1px solid black;
+            font-weight: 400;
+            &:focus,
+            &:valid {
+                ~label {
+                   color: blue;
+                }
+            }
+        }
+        label{
+            color: black;
+        }
+    }
+}
+.create-contact-heading{
+    color: black !important;
+    text-transform: uppercase;
+    font-family: var(--monteserrat-font);
+    font-size: 40px;
+}
